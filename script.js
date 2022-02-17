@@ -28,6 +28,7 @@ $(document).ready(function() {
   }
 
   function getAllTasks() {
+
     var requestUrl = apiRoot;
 
     $.ajax({
@@ -90,6 +91,7 @@ $(document).ready(function() {
       method: 'POST',
       processData: false,
       contentType: "application/json; charset=utf-8",
+      AccessControlAllowOrigin: "https://katarzynanabozny.github.io/",
       dataType: 'json',
       data: JSON.stringify({
         title: taskTitle,
