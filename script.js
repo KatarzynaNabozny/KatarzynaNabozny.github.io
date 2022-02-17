@@ -34,6 +34,7 @@ $(document).ready(function() {
     $.ajax({
       url: requestUrl,
       method: 'GET',
+      AccessControlAllowOrigin: "https://katarzynanabozny.github.io/",
         success: handleDatatableRender
      });
   }
