@@ -34,7 +34,7 @@ $(document).ready(function() {
     $.ajax({
       url: requestUrl,
       method: 'GET',
-      AccessControlAllowOrigin: "https://katarzynanabozny.github.io/",
+      contentType: "application/json",
         success: handleDatatableRender
      });
   }
@@ -92,7 +92,6 @@ $(document).ready(function() {
       method: 'POST',
       processData: false,
       contentType: "application/json; charset=utf-8",
-      AccessControlAllowOrigin: "https://katarzynanabozny.github.io/",
       dataType: 'json',
       data: JSON.stringify({
         title: taskTitle,
