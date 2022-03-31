@@ -1,0 +1,21 @@
+# Default ignored files
+/shelf/
+/.idea/workspace.xml
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+/KatarzynaNabozny.github.io.iml
+/misc.xml
+/modules.xml
+/runConfigurations.xml
+/vcs.xml
+/.idea/KatarzynaNabozny.github.io.iml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/runConfigurations.xml
+/.idea/vcs.xml
+/.idea/workspace.xml
+/.idea/shelf/local_api/shelved.patch
+/.idea/shelf/local_api.xml
